@@ -73,6 +73,14 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 number = "";
+                number = "";
+                number = "";
+                number = "";
+                number = "";
+                number = "";
+                number = "";
+                number = "";
+                number = "";
                 nextNum = 0;
                 prevSign = sign;
             } else {
