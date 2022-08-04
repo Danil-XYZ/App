@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    // tesdbzrbaerbaerbaerbaerbaebaeb
+
     TextView textView;
     String line = "";
     String prevSign = "";
@@ -72,14 +74,6 @@ public class MainActivity extends AppCompatActivity {
                     textView.setText(line);
                 }
 
-                number = "";
-                number = "";
-                number = "";
-                number = "";
-                number = "";
-                number = "";
-                number = "";
-                number = "";
                 number = "";
                 nextNum = 0;
                 prevSign = sign;
