@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_200"
+    android:background="@color/dark_d"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="377dp"
-        android:layout_height="345dp"
+        android:layout_width="374dp"
+        android:layout_height="369dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,52 +25,52 @@
             <Button
                 android:id="@+id/buttonC"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="resetBtnClick"
                 android:text="C"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/buttonX"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:text="X"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/buttonPercent"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:text="%"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/buttonDivide"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="signBtnClick"
                 android:text="/"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
         </LinearLayout>
 
@@ -82,54 +82,54 @@
             <Button
                 android:id="@+id/button7"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="numBtnClick"
                 android:text="7"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="numBtnClick"
                 android:text="8"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="numBtnClick"
                 android:text="9"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/buttonMultiply"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="signBtnClick"
                 android:text="*"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
         </LinearLayout>
 
@@ -141,170 +141,172 @@
             <Button
                 android:id="@+id/button4"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="numBtnClick"
                 android:text="4"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="numBtnClick"
                 android:text="5"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="numBtnClick"
                 android:text="6"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/buttonMinus"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="signBtnClick"
                 android:text="-"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_m"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/button1"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="numBtnClick"
                 android:text="1"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="numBtnClick"
                 android:text="2"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="numBtnClick"
                 android:text="3"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/buttonPlus"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="signBtnClick"
                 android:text="+"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_m"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/button17"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:text="C"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/button0"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="numBtnClick"
                 android:text="0"
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/buttonDot"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:text="."
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
             <Button
                 android:id="@+id/buttonEqual"
                 android:layout_width="wrap_content"
-                android:layout_height="65dp"
+                android:layout_height="70dp"
                 android:layout_weight="1"
-                android:backgroundTint="#009688"
+                android:backgroundTint="@color/dark_m"
                 android:insetLeft="6dp"
                 android:insetRight="6dp"
                 android:onClick="signBtnClick"
                 android:text="="
                 android:textSize="20sp"
-                app:cornerRadius="100dp" />
+                app:cornerRadius="15dp" />
 
         </LinearLayout>
 
@@ -314,7 +316,8 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="357dp"
         android:layout_height="75dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/dark_l"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="0"

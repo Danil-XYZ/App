@@ -9,8 +9,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    // tesdbzrbaerbaerbaerbaerbaebaeb
-
     TextView textView;
     String line = "";
     String prevSign = "";
